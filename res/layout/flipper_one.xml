@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#60ffffff"
+     >
+
+    <ImageView 
+        android:id="@+id/minimize_this"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/minimize"
+        />
+    
+     <RelativeLayout 
+         android:id="@+id/previous_arrow"
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:layout_centerVertical="true"
+         >
+         <ImageView 
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:src="@drawable/arrow_prev"
+             />
+         
+     </RelativeLayout>
+    
+    <ViewFlipper
+        android:layout_toRightOf="@id/previous_arrow"
+        android:id="@+id/viewFlipper_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" >
+        
+       
+    </ViewFlipper>
+    
+    <RelativeLayout 
+         android:id="@+id/next_arrow"
+         android:layout_toRightOf="@id/viewFlipper_one"
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:layout_centerVertical="true"
+         
+         >
+         <ImageView 
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:src="@drawable/arrow_next"
+             />
+         
+     </RelativeLayout>
+
+</RelativeLayout>
