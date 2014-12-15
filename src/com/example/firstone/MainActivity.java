@@ -105,7 +105,8 @@ public class MainActivity extends ActionBarActivity implements OnQueryTextListen
 	   Log.e("hello", "dude");
        if (Intent.ACTION_SEARCH.equals(intent.getAction())) {
            String arg0 = intent.getStringExtra(SearchManager.QUERY);
-           updatesearchone(arg0); 
+          // searchView.setQuery(arg0, true); 
+           Toast.makeText(getApplicationContext(), arg0, Toast.LENGTH_SHORT).show();
        	if(!lister.contains(arg0)){
        		if(lister.size()>9){
        			lister.remove(lister.size()-1);
@@ -173,7 +174,7 @@ public boolean onQueryTextChange(String arg0) {
 @Override
 public boolean onQueryTextSubmit(String arg0) {
 	// TODO Auto-generated method stub
-	updatesearchone(arg0); 
+	 
 	if(!lister.contains(arg0)){
 		if(lister.size()>9){
 			lister.remove(lister.size()-1);
