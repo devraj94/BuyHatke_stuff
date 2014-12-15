@@ -104,8 +104,28 @@ public class MainActivity extends ActionBarActivity implements OnQueryTextListen
 
 	   Log.e("hello", "dude");
        if (Intent.ACTION_SEARCH.equals(intent.getAction())) {
-           String query = intent.getStringExtra(SearchManager.QUERY);
-           Toast.makeText(getApplicationContext(), query, Toast.LENGTH_LONG).show();
+           String arg0 = intent.getStringExtra(SearchManager.QUERY);
+           updatesearchone(arg0); 
+       	if(!lister.contains(arg0)){
+       		if(lister.size()>9){
+       			lister.remove(lister.size()-1);
+       			lister.add(0,arg0);
+       			
+       		}else{
+       			lister.add(0,arg0);
+       		}
+       		for(int i=0;i<lister.size();i++){
+       			Log.e("save", String.valueOf(i));
+       		 SharedPreferences prefs = getSharedPreferences("shared_prefs_firstone"+i, Context.MODE_PRIVATE);
+       	        
+       	     	Editor editor=prefs.edit();
+       	     	editor.putString("name", lister.get(i));
+       	     	editor.commit();
+       	     	
+       	    }
+       		
+       		//Toast.makeText(getApplicationContext(), lister.toString(), Toast.LENGTH_LONG).show();
+       	}
        }
    }
 
@@ -153,7 +173,7 @@ public boolean onQueryTextChange(String arg0) {
 @Override
 public boolean onQueryTextSubmit(String arg0) {
 	// TODO Auto-generated method stub
-	
+	updatesearchone(arg0); 
 	if(!lister.contains(arg0)){
 		if(lister.size()>9){
 			lister.remove(lister.size()-1);
