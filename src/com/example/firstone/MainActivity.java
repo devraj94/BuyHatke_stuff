@@ -86,7 +86,8 @@ public class MainActivity extends ActionBarActivity implements OnQueryTextListen
 	     searchView =
 	    		(SearchView) MenuItemCompat.getActionView(item);
 	    searchView.setOnQueryTextListener( MainActivity.this);
-
+	    searchView.setSearchableInfo(searchManager.getSearchableInfo(getComponentName()));
+		  
 	    
 	    
 	    
