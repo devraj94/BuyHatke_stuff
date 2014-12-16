@@ -257,6 +257,34 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static final int barSize=0x7f01009f;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int behindOffset=0x7f0100ac;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int behindScrollScale=0x7f0100ae;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int behindWidth=0x7f0100ad;
         /**  A style that may be applied to Buttons placed within a
              LinearLayout with the style buttonBarStyle to form a button bar. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
@@ -562,6 +590,22 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static final int expandActivityOverflowButtonDrawable=0x7f010085;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int fadeDegree=0x7f0100b4;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int fadeEnabled=0x7f0100b3;
         /**  The max gap between the bars when they are parallel to each other 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
@@ -763,6 +807,17 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static final int middleBarArrowSize=0x7f01009e;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>left</code></td><td>0</td><td></td></tr>
+<tr><td><code>right</code></td><td>1</td><td></td></tr>
+</table>
+         */
+        public static final int mode=0x7f0100a9;
         /**  Text to set as the content description for the navigation button
              located at the start of the toolbar. 
          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
@@ -933,6 +988,32 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static final int selectableItemBackgroundBorderless=0x7f010031;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int selectorDrawable=0x7f0100b6;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int selectorEnabled=0x7f0100b5;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int shadowDrawable=0x7f0100b1;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int shadowWidth=0x7f0100b2;
         /**  How this item should display in the Action Bar, if present. 
          <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
@@ -1251,11 +1332,43 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static final int topBottomBarArrowSize=0x7f01009d;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>margin</code></td><td>0</td><td></td></tr>
+<tr><td><code>fullscreen</code></td><td>1</td><td></td></tr>
+<tr><td><code>none</code></td><td>2</td><td></td></tr>
+</table>
+         */
+        public static final int touchModeAbove=0x7f0100af;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>margin</code></td><td>0</td><td></td></tr>
+<tr><td><code>fullscreen</code></td><td>1</td><td></td></tr>
+<tr><td><code>none</code></td><td>2</td><td></td></tr>
+</table>
+         */
+        public static final int touchModeBehind=0x7f0100b0;
         /**  Drawable to use as the "track" that the switch thumb slides within. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static final int track=0x7f0100a2;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int viewAbove=0x7f0100aa;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int viewBehind=0x7f0100ab;
         /**  Voice button icon 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
@@ -1574,6 +1687,7 @@ containing a value of this type.
         /**  Semantic definitions 
          */
         public static final int horizontal_page_margin=0x7f090030;
+        public static final int list_padding=0x7f090033;
         public static final int margin_huge=0x7f09002f;
         public static final int margin_large=0x7f09002e;
         public static final int margin_medium=0x7f09002d;
@@ -1581,6 +1695,10 @@ containing a value of this type.
         /**  Define standard dimensions to comply with Holo-style grids and rhythm. 
          */
         public static final int margin_tiny=0x7f09002b;
+        public static final int shadow_width=0x7f090034;
+        /**  Sliding menu 
+         */
+        public static final int slidingmenu_offset=0x7f090032;
         public static final int vertical_page_margin=0x7f090031;
     }
     public static final class drawable {
@@ -1645,96 +1763,112 @@ containing a value of this type.
         public static final int nyc_pics2=0x7f02003a;
         public static final int nyc_pics3=0x7f02003b;
         public static final int nyc_pics4=0x7f02003c;
-        public static final int tile=0x7f02003d;
+        public static final int shadow=0x7f02003d;
+        public static final int shadowright=0x7f02003e;
+        public static final int tile=0x7f02003f;
     }
     public static final class id {
-        public static final int action_bar=0x7f060033;
+        public static final int action_bar=0x7f060038;
         public static final int action_bar_activity_content=0x7f06001a;
-        public static final int action_bar_container=0x7f060032;
-        public static final int action_bar_root=0x7f06002e;
+        public static final int action_bar_container=0x7f060037;
+        public static final int action_bar_root=0x7f060033;
         public static final int action_bar_spinner=0x7f060019;
-        public static final int action_bar_subtitle=0x7f060021;
-        public static final int action_bar_title=0x7f060020;
-        public static final int action_context_bar=0x7f060034;
+        public static final int action_bar_subtitle=0x7f060026;
+        public static final int action_bar_title=0x7f060025;
+        public static final int action_context_bar=0x7f060039;
         public static final int action_menu_divider=0x7f06001c;
         public static final int action_menu_presenter=0x7f06001d;
-        public static final int action_mode_bar=0x7f060030;
-        public static final int action_mode_bar_stub=0x7f06002f;
-        public static final int action_mode_close_button=0x7f060022;
-        public static final int activity_chooser_view_content=0x7f060023;
+        public static final int action_mode_bar=0x7f060035;
+        public static final int action_mode_bar_stub=0x7f060034;
+        public static final int action_mode_close_button=0x7f060027;
+        public static final int activity_chooser_view_content=0x7f060028;
         public static final int always=0x7f06000d;
         public static final int beginning=0x7f060012;
         public static final int bottom=0x7f060016;
-        public static final int button_to_open_specific_app=0x7f060057;
-        public static final int checkbox=0x7f06002b;
+        public static final int button_to_open_specific_app=0x7f06005e;
+        public static final int checkbox=0x7f060030;
         public static final int collapseActionView=0x7f06000f;
-        public static final int decor_content_parent=0x7f060031;
-        public static final int default_activity_button=0x7f060026;
+        public static final int currentprice_object_slidingmenu_left_cell=0x7f060062;
+        public static final int decor_content_parent=0x7f060036;
+        public static final int default_activity_button=0x7f06002b;
         public static final int dialog=0x7f060010;
         public static final int disableHome=0x7f06000a;
-        public static final int drawer_layout=0x7f060041;
+        public static final int drawer_layout=0x7f060046;
         public static final int dropdown=0x7f060011;
-        public static final int edit_query=0x7f060035;
+        public static final int edit_query=0x7f06003a;
         public static final int end=0x7f060014;
-        public static final int expand_activities_button=0x7f060024;
-        public static final int expanded_menu=0x7f06002a;
+        public static final int expand_activities_button=0x7f060029;
+        public static final int expanded_menu=0x7f06002f;
+        public static final int fullscreen=0x7f060023;
         public static final int home=0x7f060017;
         public static final int homeAsUp=0x7f060007;
-        public static final int hscroll_listitem_listview=0x7f06004b;
-        public static final int icon=0x7f060028;
+        public static final int hscroll_listitem_listview=0x7f060051;
+        public static final int icon=0x7f06002d;
         public static final int ifRoom=0x7f06000c;
-        public static final int image=0x7f060025;
-        public static final int imageview_item_listview=0x7f06004f;
-        public static final int item_subtitle=0x7f060053;
-        public static final int item_title=0x7f060054;
-        public static final int itemg=0x7f06004d;
-        public static final int left_drawer=0x7f060044;
+        public static final int image=0x7f06002a;
+        public static final int imageView_listview_slidingmenu_left=0x7f06005f;
+        public static final int imageview_item_listview=0x7f060055;
+        public static final int item_subtitle=0x7f060059;
+        public static final int item_title=0x7f06005a;
+        public static final int itemg=0x7f060053;
+        public static final int left=0x7f060020;
+        public static final int left_drawer=0x7f06004a;
         public static final int listMode=0x7f060002;
-        public static final int list_item=0x7f060027;
-        public static final int list_item_layout_linear=0x7f06004c;
-        public static final int list_view_on_tab1=0x7f06004e;
+        public static final int list_item=0x7f06002c;
+        public static final int list_item_layout_linear=0x7f060052;
+        public static final int list_view_on_tab1=0x7f060054;
+        public static final int margin=0x7f060022;
         public static final int middle=0x7f060013;
-        public static final int minimize_this=0x7f060045;
-        public static final int minimize_this_show_message_item=0x7f060055;
+        public static final int minimize_this=0x7f06004b;
+        public static final int minimize_this_show_message_item=0x7f06005c;
+        public static final int name_object_slidingmenu_left_cell=0x7f060060;
         public static final int never=0x7f06000b;
-        public static final int next_arrow=0x7f060048;
+        public static final int next_arrow=0x7f06004e;
         public static final int none=0x7f060004;
         public static final int normal=0x7f060001;
-        public static final int previous_arrow=0x7f060046;
+        public static final int previous_arrow=0x7f06004c;
+        public static final int price_object_slidingmenu_left_cell=0x7f060061;
+        public static final int progressBar_slidingmenu_left=0x7f060064;
         public static final int progress_circular=0x7f06001e;
         public static final int progress_horizontal=0x7f06001f;
-        public static final int radio=0x7f06002d;
-        public static final int sample_content_fragment=0x7f060043;
-        public static final int sample_main_layout=0x7f060042;
-        public static final int search=0x7f060058;
-        public static final int search_badge=0x7f060037;
-        public static final int search_bar=0x7f060036;
-        public static final int search_button=0x7f060038;
-        public static final int search_close_btn=0x7f06003d;
-        public static final int search_edit_frame=0x7f060039;
-        public static final int search_go_btn=0x7f06003f;
-        public static final int search_mag_icon=0x7f06003a;
-        public static final int search_plate=0x7f06003b;
-        public static final int search_src_text=0x7f06003c;
-        public static final int search_voice_btn=0x7f060040;
-        public static final int shortcut=0x7f06002c;
+        public static final int radio=0x7f060032;
+        public static final int right=0x7f060021;
+        public static final int sample_content_fragment=0x7f060049;
+        public static final int sample_main_layout=0x7f060047;
+        public static final int search=0x7f060066;
+        public static final int search_badge=0x7f06003c;
+        public static final int search_bar=0x7f06003b;
+        public static final int search_button=0x7f06003d;
+        public static final int search_close_btn=0x7f060042;
+        public static final int search_edit_frame=0x7f06003e;
+        public static final int search_go_btn=0x7f060044;
+        public static final int search_mag_icon=0x7f06003f;
+        public static final int search_plate=0x7f060040;
+        public static final int search_src_text=0x7f060041;
+        public static final int search_voice_btn=0x7f060045;
+        public static final int secondactivitybutton=0x7f060048;
+        public static final int selected_view=0x7f060024;
+        public static final int shortcut=0x7f060031;
         public static final int showCustom=0x7f060009;
         public static final int showHome=0x7f060006;
         public static final int showTitle=0x7f060008;
-        public static final int sliding_tabs=0x7f060049;
+        public static final int sliding_menu_left_listview=0x7f060063;
+        public static final int sliding_tabs=0x7f06004f;
+        public static final int slidingmenu_left_draw_button_secondactivity=0x7f06005b;
+        public static final int slidingmenumain=0x7f060065;
         public static final int split_action_bar=0x7f06001b;
-        public static final int submit_area=0x7f06003e;
+        public static final int submit_area=0x7f060043;
         public static final int tabMode=0x7f060003;
-        public static final int text_message_to_try_buyhatke=0x7f060056;
-        public static final int textview_item_moredetails=0x7f060052;
-        public static final int textview_item_name=0x7f060050;
-        public static final int textview_item_somedetails=0x7f060051;
-        public static final int title=0x7f060029;
+        public static final int text_message_to_try_buyhatke=0x7f06005d;
+        public static final int textview_item_moredetails=0x7f060058;
+        public static final int textview_item_name=0x7f060056;
+        public static final int textview_item_somedetails=0x7f060057;
+        public static final int title=0x7f06002e;
         public static final int top=0x7f060015;
         public static final int up=0x7f060018;
         public static final int useLogo=0x7f060005;
-        public static final int viewFlipper_one=0x7f060047;
-        public static final int viewpager=0x7f06004a;
+        public static final int viewFlipper_one=0x7f06004d;
+        public static final int viewpager=0x7f060050;
         public static final int withText=0x7f06000e;
         public static final int wrap_content=0x7f060000;
     }
@@ -1797,8 +1931,12 @@ containing a value of this type.
         public static final int list_view_on_tab1=0x7f03001e;
         public static final int listview_item=0x7f03001f;
         public static final int pager_item=0x7f030020;
-        public static final int show_message_item=0x7f030021;
-        public static final int support_simple_spinner_dropdown_item=0x7f030022;
+        public static final int second_activity_layout=0x7f030021;
+        public static final int show_message_item=0x7f030022;
+        public static final int sliding_menu_left_listview_cell=0x7f030023;
+        public static final int sliding_menu_leftbar_layout=0x7f030024;
+        public static final int slidingmenumain=0x7f030025;
+        public static final int support_simple_spinner_dropdown_item=0x7f030026;
     }
     public static final class menu {
         public static final int options_menu=0x7f0d0000;
@@ -4050,6 +4188,245 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           @attr name com.example.firstone:voiceIcon
         */
         public static final int SearchView_voiceIcon = 10;
+        /** Attributes that can be used with a SlidingMenu.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #SlidingMenu_behindOffset com.example.firstone:behindOffset}</code></td><td></td></tr>
+           <tr><td><code>{@link #SlidingMenu_behindScrollScale com.example.firstone:behindScrollScale}</code></td><td></td></tr>
+           <tr><td><code>{@link #SlidingMenu_behindWidth com.example.firstone:behindWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SlidingMenu_fadeDegree com.example.firstone:fadeDegree}</code></td><td></td></tr>
+           <tr><td><code>{@link #SlidingMenu_fadeEnabled com.example.firstone:fadeEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #SlidingMenu_mode com.example.firstone:mode}</code></td><td></td></tr>
+           <tr><td><code>{@link #SlidingMenu_selectorDrawable com.example.firstone:selectorDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #SlidingMenu_selectorEnabled com.example.firstone:selectorEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #SlidingMenu_shadowDrawable com.example.firstone:shadowDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #SlidingMenu_shadowWidth com.example.firstone:shadowWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SlidingMenu_touchModeAbove com.example.firstone:touchModeAbove}</code></td><td></td></tr>
+           <tr><td><code>{@link #SlidingMenu_touchModeBehind com.example.firstone:touchModeBehind}</code></td><td></td></tr>
+           <tr><td><code>{@link #SlidingMenu_viewAbove com.example.firstone:viewAbove}</code></td><td></td></tr>
+           <tr><td><code>{@link #SlidingMenu_viewBehind com.example.firstone:viewBehind}</code></td><td></td></tr>
+           </table>
+           @see #SlidingMenu_behindOffset
+           @see #SlidingMenu_behindScrollScale
+           @see #SlidingMenu_behindWidth
+           @see #SlidingMenu_fadeDegree
+           @see #SlidingMenu_fadeEnabled
+           @see #SlidingMenu_mode
+           @see #SlidingMenu_selectorDrawable
+           @see #SlidingMenu_selectorEnabled
+           @see #SlidingMenu_shadowDrawable
+           @see #SlidingMenu_shadowWidth
+           @see #SlidingMenu_touchModeAbove
+           @see #SlidingMenu_touchModeBehind
+           @see #SlidingMenu_viewAbove
+           @see #SlidingMenu_viewBehind
+         */
+        public static final int[] SlidingMenu = {
+            0x7f0100a9, 0x7f0100aa, 0x7f0100ab, 0x7f0100ac,
+            0x7f0100ad, 0x7f0100ae, 0x7f0100af, 0x7f0100b0,
+            0x7f0100b1, 0x7f0100b2, 0x7f0100b3, 0x7f0100b4,
+            0x7f0100b5, 0x7f0100b6
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.example.firstone.R.attr#behindOffset}
+          attribute's value can be found in the {@link #SlidingMenu} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.firstone:behindOffset
+        */
+        public static final int SlidingMenu_behindOffset = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.example.firstone.R.attr#behindScrollScale}
+          attribute's value can be found in the {@link #SlidingMenu} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.firstone:behindScrollScale
+        */
+        public static final int SlidingMenu_behindScrollScale = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.example.firstone.R.attr#behindWidth}
+          attribute's value can be found in the {@link #SlidingMenu} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.firstone:behindWidth
+        */
+        public static final int SlidingMenu_behindWidth = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.example.firstone.R.attr#fadeDegree}
+          attribute's value can be found in the {@link #SlidingMenu} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.firstone:fadeDegree
+        */
+        public static final int SlidingMenu_fadeDegree = 11;
+        /**
+          <p>This symbol is the offset where the {@link com.example.firstone.R.attr#fadeEnabled}
+          attribute's value can be found in the {@link #SlidingMenu} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.firstone:fadeEnabled
+        */
+        public static final int SlidingMenu_fadeEnabled = 10;
+        /**
+          <p>This symbol is the offset where the {@link com.example.firstone.R.attr#mode}
+          attribute's value can be found in the {@link #SlidingMenu} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>left</code></td><td>0</td><td></td></tr>
+<tr><td><code>right</code></td><td>1</td><td></td></tr>
+</table>
+          @attr name com.example.firstone:mode
+        */
+        public static final int SlidingMenu_mode = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.example.firstone.R.attr#selectorDrawable}
+          attribute's value can be found in the {@link #SlidingMenu} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.example.firstone:selectorDrawable
+        */
+        public static final int SlidingMenu_selectorDrawable = 13;
+        /**
+          <p>This symbol is the offset where the {@link com.example.firstone.R.attr#selectorEnabled}
+          attribute's value can be found in the {@link #SlidingMenu} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.firstone:selectorEnabled
+        */
+        public static final int SlidingMenu_selectorEnabled = 12;
+        /**
+          <p>This symbol is the offset where the {@link com.example.firstone.R.attr#shadowDrawable}
+          attribute's value can be found in the {@link #SlidingMenu} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.example.firstone:shadowDrawable
+        */
+        public static final int SlidingMenu_shadowDrawable = 8;
+        /**
+          <p>This symbol is the offset where the {@link com.example.firstone.R.attr#shadowWidth}
+          attribute's value can be found in the {@link #SlidingMenu} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.firstone:shadowWidth
+        */
+        public static final int SlidingMenu_shadowWidth = 9;
+        /**
+          <p>This symbol is the offset where the {@link com.example.firstone.R.attr#touchModeAbove}
+          attribute's value can be found in the {@link #SlidingMenu} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>margin</code></td><td>0</td><td></td></tr>
+<tr><td><code>fullscreen</code></td><td>1</td><td></td></tr>
+<tr><td><code>none</code></td><td>2</td><td></td></tr>
+</table>
+          @attr name com.example.firstone:touchModeAbove
+        */
+        public static final int SlidingMenu_touchModeAbove = 6;
+        /**
+          <p>This symbol is the offset where the {@link com.example.firstone.R.attr#touchModeBehind}
+          attribute's value can be found in the {@link #SlidingMenu} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>margin</code></td><td>0</td><td></td></tr>
+<tr><td><code>fullscreen</code></td><td>1</td><td></td></tr>
+<tr><td><code>none</code></td><td>2</td><td></td></tr>
+</table>
+          @attr name com.example.firstone:touchModeBehind
+        */
+        public static final int SlidingMenu_touchModeBehind = 7;
+        /**
+          <p>This symbol is the offset where the {@link com.example.firstone.R.attr#viewAbove}
+          attribute's value can be found in the {@link #SlidingMenu} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.example.firstone:viewAbove
+        */
+        public static final int SlidingMenu_viewAbove = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.example.firstone.R.attr#viewBehind}
+          attribute's value can be found in the {@link #SlidingMenu} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.example.firstone:viewBehind
+        */
+        public static final int SlidingMenu_viewBehind = 2;
         /** Attributes that can be used with a Spinner.
            <p>Includes the following attributes:</p>
            <table>
