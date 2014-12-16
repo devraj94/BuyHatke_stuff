@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <HorizontalScrollView 
+        android:id="@+id/hscroll_listitem_listview"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_margin="5dp"
+        >
+        
+        <LinearLayout 
+            android:id="@+id/list_item_layout_linear"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            >
+            
+        </LinearLayout>
+        
+    </HorizontalScrollView>
+
+</RelativeLayout>

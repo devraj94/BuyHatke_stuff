@@ -1,5 +1,7 @@
 package com.example.firstone;
 
+import java.util.ArrayList;
+
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.PagerAdapter;
@@ -8,8 +10,10 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ListView;
 import android.widget.TextView;
 
+import com.example.firstone.adapter.List_view_hscroll_adapter;
 import com.example.firstone.views.SlidingTabLayout;
  
 /**
@@ -107,18 +111,51 @@ public class SlidingTabsBasicFragment extends Fragment {
         @Override
         public Object instantiateItem(ViewGroup container, int position) {
             // Inflate a new layout from our resources
-            View view = getActivity().getLayoutInflater().inflate(R.layout.pager_item,
-                    container, false);
-            // Add the newly created View to the ViewPager
-            container.addView(view);
- 
-            // Retrieve a TextView from the inflated View, and update it's text
-            TextView title = (TextView) view.findViewById(R.id.item_title);
-            title.setText(String.valueOf(position + 1));
- 
-            Log.i(LOG_TAG, "instantiateItem() [position: " + position + "]");
- 
-            // Return the View
+        	 View view=null;
+        	if(position==1){
+        		 view = getActivity().getLayoutInflater().inflate(R.layout.list_view_on_tab1,
+                         container, false);
+                 // Add the newly created View to the ViewPager
+        		 ListView lister=(ListView)view.findViewById(R.id.list_view_on_tab1);
+        		 List_view_hscroll_adapter adapter=new List_view_hscroll_adapter(getActivity().getApplicationContext(),getActivity().getLayoutInflater());
+        		 ArrayList<ArrayList<String>> listery=new ArrayList<ArrayList<String>>();
+        		 ArrayList<String> listy=new ArrayList<String>();
+        		 for(int i=0;i<10;i++){
+        			 listy.add("Row :1 and Item :"+i);
+        		 }
+        		 listery.add(listy);
+        		 ArrayList<String> listy1=new ArrayList<String>();
+        		 for(int i=0;i<5;i++){
+        			 listy1.add("Row :2 and Item :"+i);
+        		 }
+        		 listery.add(listy1);
+        		 ArrayList<String> listy2=new ArrayList<String>();
+        		 for(int i=0;i<7;i++){
+        			 listy2.add("Row :3 and Item :"+i);
+        		 }
+        		 listery.add(listy2);
+        		 ArrayList<String> listy3=new ArrayList<String>();
+        		 for(int i=0;i<20;i++){
+        			 listy3.add("Row :4 and Item :"+i);
+        		 }
+        		 listery.add(listy3);
+        		 lister.setAdapter(adapter);
+        		 adapter.upDateEntries(listery);
+                 container.addView(view);
+           }else{
+        	    view = getActivity().getLayoutInflater().inflate(R.layout.pager_item,
+                       container, false);
+               // Add the newly created View to the ViewPager
+               container.addView(view);
+    
+               // Retrieve a TextView from the inflated View, and update it's text
+               TextView title = (TextView) view.findViewById(R.id.item_title);
+               title.setText(String.valueOf(position + 1));
+    
+               Log.i(LOG_TAG, "instantiateItem() [position: " + position + "]");
+    
+               // Return the View
+           }
             return view;
         }
  
